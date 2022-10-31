@@ -49,10 +49,10 @@ function Footer() {
                         <p>© 2021-22 Octa Farm. All rights reserved.</p>
                     </div>
                     <div>
-                    <BsGithub size={"35px"}/> &nbsp; &nbsp;
-                    <AiFillTwitterCircle size={"38px"}/>  &nbsp; &nbsp;
-                    <BsTelegram size={"35px"}/>&nbsp; &nbsp;
-                    <AiFillInstagram size={"35px"}/>&nbsp; &nbsp;
+                    <BsGithub size={"35px"} color="#69EEDC"/> &nbsp; &nbsp;
+                    <AiFillTwitterCircle size={"38px"} color="#69EEDC"/>  &nbsp; &nbsp;
+                    <BsTelegram size={"35px"} color="#69EEDC"/>&nbsp; &nbsp;
+                    <AiFillInstagram size={"35px"} color="#69EEDC"/>&nbsp; &nbsp;
                     </div>
                 </div>
             </div>

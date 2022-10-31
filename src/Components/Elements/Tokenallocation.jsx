@@ -1,4 +1,5 @@
 import React from 'react'
+import Circle from './Circle'
 
 function Tokenallocation() {
   return (
@@ -9,25 +10,27 @@ function Tokenallocation() {
             <div className='token d-flex justify-content-between text-center'>
                 <div>
                     <span>Ticker</span>
-                    <h1>OCTF</h1> 
+                    <h1 className='colortext'>OCTF</h1> 
                 </div>
                 <div>
                     <span>Network</span>
-                    <h1>BSC</h1> 
+                    <h1 className='colortext'>BSC</h1> 
                 </div>
                 <div>
                     <span>Total Fixed Supply</span>
-                    <h1>10 Million</h1> 
+                    <h1 className='colortext'>10 Million</h1> 
                 </div>
                 <div>
                     <span>Emission</span>
-                    <h1>2 Years</h1> 
+                    <h1 className='colortext'>2 Years</h1> 
                 </div>
 
             </div>
             </div>
             <div className="row py-5">
                 <div className="col-md-6">
+
+                  <Circle/>
 
                 </div>
                 <div className="col-md-6">

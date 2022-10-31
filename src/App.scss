@@ -1,206 +1,215 @@
-.header{
+.header {
   background-color: #0b132b;
-    .overview{
-      
-      color: white !important;
-      font-weight: 500;
-      font-size: 20px;
-    }
-  
+  .overview {
+    color: white !important;
+    font-weight: 500;
+    font-size: 20px;
+  }
 }
-.hero{
-  .v{
+.hero {
+  .v {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  video{
-    width: 100%;
 
   }
-  .launch{
+  video {
+    width: 100%;
+  }
+  .launch {
     background-color: transparent !important;
     color: white;
     border: 1px solid white;
     margin-top: 15px;
     padding: 9px 20px;
     margin-left: 30px;
-    &:hover{
+    &:hover {
       border-color: white !important;
     }
-
   }
-  h1{
+  h1 {
     color: white;
   }
-  h4{
+  h4 {
     color: #5bc0be;
-
   }
-  button{
+  button {
     background-color: #5bc0be !important;
     color: black;
     border: none;
     padding: 9px 70px;
   }
 }
-.invest{
-  h4{
+.invest {
+  h4 {
     color: #5bc0be;
   }
-  h2{
+  h2 {
     color: white;
     font-weight: 700;
   }
-  h1{
+  h1 {
     color: white;
   }
-  .card2{
-    padding-left: 35px!important;
+  .card2 {
+    padding-left: 35px !important;
     background-color: rgb(46 125 175 / 20%);
     color: white;
-    p{
+    p {
       font-size: 18px;
     }
-    span{
+    span {
       color: #5bc0be;
       font-weight: 500;
       line-height: 0.7;
     }
-    .seven{
+    .seven {
       font-size: 70px;
       color: white;
     }
-    .annual{
+    .annual {
       color: #5bc0be;
     }
   }
 }
-.digital{
-  img{
+.digital {
+  img {
     // background-color: white !important;
     color: white !important;
   }
-  hr{
+  hr {
     color: white;
   }
 }
-.footer{
+.footer {
   background-color: #080e21;
-  color:white;
-  li{
+  color: white;
+  li {
     color: #6d8bb0;
   }
-  p{
+  p {
     color: #6d8bb0;
   }
 }
-.faq{
+.faq {
   background-color: #0b132b;
   color: white;
-.asked{
-  font-size: 15px;
-  color: #6d8bb0  ;
+  .asked {
+    font-size: 15px;
+    color: #6d8bb0;
+  }
+  .faq-row {
+    background-color: #1f2947 !important;
+    border-radius: 10px;
+  }
+  .styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+    border-bottom: none;
+  }
+
+  .styles_faq-row-wrapper__3vA1D
+    .styles_row-body__1NvUo
+    .styles_faq-row__2YF3c {
+    margin-top: 10px !important;
+  }
+  .styles_faq-row-wrapper__3vA1D
+    .styles_row-body__1NvUo
+    .styles_faq-row__2YF3c
+    .styles_row-title__1YiiY.styles_no-tabfocus__1HmyD {
+    padding: 13px !important;
+  }
+  .styles_faq-row-wrapper__3vA1D
+    .styles_row-body__1NvUo
+    .styles_faq-row__2YF3c
+    .styles_row-content__QOGZd
+    .styles_row-content-text__2sgAB {
+    margin-left: 20px !important;
+    color: #6d8bb0 !important;
+  }
+  .styles_faq-row-wrapper__3vA1D {
+    background-color: #0b132b !important;
+    outline: none !important;
+    border-radius: 10px !important;
+  }
 }
-.faq-row{
-  background-color: #1f2947 !important;
-  border-radius: 10px;
-  
-}
-.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c{
-  border-bottom: none;
-}
-  
-  .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c {
-margin-top: 10px !important;
-}
-.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_no-tabfocus__1HmyD {
-  padding: 13px !important;
-}
-.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB {
-  margin-left: 20px !important;
-  color: #6d8bb0 !important; 
-}
-.styles_faq-row-wrapper__3vA1D {
+body {
   background-color: #0b132b !important;
-  outline: none !important;
-  border-radius: 10px !important;
 }
+.hero{
+  background-image: url("https://octafarm.fi/_next/static/image/src/assets/images/big-oct-back.348882dba9fe99cbd191ef5c688ed7e2.png" );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-body{
-  background-color: #0b132b !important;
-}
-.private{
-  
-  .card{
+.private {
+  .card {
     background-color: rgb(46 125 175 / 20%);
     color: white;
-    .sale{
+    .sale {
       color: #99fff0 !important;
     }
-    .seven{
+    .seven {
       font-size: 50px;
       font-weight: 700;
       font-family: bold;
     }
-    button{
-      background-color: #99fff0  !important;
+    button {
+      background-color: #99fff0 !important;
       color: black;
       font-weight: 650;
       border: none !important;
       padding: 8px 30px;
-
     }
   }
-  .complete{
+  .complete {
     position: absolute;
     display: block;
-    background-color: #5bc0be ;
+    background-color: #5bc0be;
     padding: 0px 20px;
     left: -15px;
     top: 28px;
-    transform: rotate(-46deg)
-
+    transform: rotate(-46deg);
   }
-  .live{
+  .live {
     position: absolute;
     display: block;
-    background-color: red ;
+    background-color: red;
     padding: 0px 20px;
     left: -15px;
     top: 28px;
-    transform: rotate(-46deg)
-
+    transform: rotate(-46deg);
   }
 }
-.tokenallocation{
+.tokenallocation {
   color: white;
 }
-.crosschain{
+.colortext {
+  color: #5bc0be;
+}
+
+.crosschain {
   color: white;
-  h4{
+  h4 {
     color: #5bc0be;
   }
-  h1{
+  h1 {
     font-size: 50px !important;
     font-weight: 700;
   }
-  span{
+  span {
     color: white;
   }
-  .octo{
+  .octo {
     // margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
-  .card{
+
+  .card {
     background-color: rgb(46 125 175 / 20%);
     color: white;
     border-left: 2px solid #5bc0be;
   }
-  .octocards{
+  .octocards {
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -208,58 +217,52 @@ body{
   }
 }
 
-.tokenvalue{
+.tokenvalue {
   color: white;
-  .card{
+  .card {
     background-color: rgb(46 125 175 / 20%);
   }
 }
 
-
-
-
-
-@media screen and ( max-width: "600px"){
-  .tokenallocation{
-    .token{
+@media screen and (max-width: "600px") {
+  .tokenallocation {
+    .token {
       display: flex;
       flex-direction: column;
       // align-items: flex-start;
       justify-content: center;
       // align-items: flex-start;
-      div{
+      div {
         margin-top: 20px;
       }
     }
-
   }
-  .crosschain{
-    span{
+  .crosschain {
+    span {
       color: white;
     }
-    .octo{
+    .octo {
       // margin-left: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
     }
-    
-    .card{
+
+    .card {
       background-color: rgb(46 125 175 / 20%);
       color: white;
       border-left: 2px solid #5bc0be;
     }
-    .binance{
+    .binance {
       display: flex;
       align-items: center !important;
       flex-direction: column;
     }
-    img{
+    img {
       margin-top: 30px !important;
       margin-bottom: 40px;
     }
-    .octocards{
-      
+    .octocards {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -267,4 +270,115 @@ body{
     }
   }
 }
+
+.bg1 {
+  background-image: url("Media/pipe.svg");
+}
+.bg2 {
+  background-image: url("Media/pioe2.svg");
+  background-repeat: no-repeat;
+}
+.bg3 {
+  background-image: url("Media/pipe1.svg");
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 600px) {
+  .crosschain {
+    display: none;
+  }
+}
+
+.L{
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background-image: url("Media/token.svg");
+  background-size: cover;
+  .h{
+    position: relative;
+    border: 1px solid white;
+  }
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 150px;
+    top: -12px;
+  }
+  .dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 450px;
+    top: -12px;
+  }
+  .fontcolor{
+    color: white;
   
+  }
+  .textline{
+    top: -180px;
+    position: absolute;
+  }
+  .textline1{
+    bottom: -180px;
+    position: absolute;
+  }
+  .dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 750px;
+    top: -12px;
+  }
+  .dot4 {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1050px;
+    top: -12px;
+  }
+  .dot5 {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1400px;
+    top: -12px;
+  }
+  .clr{
+    color: #D6FFEC;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  .L{
+    display: none;
+  }
+  
+}
+text{
+  fill: white !important;
+}
+
+.img1{
+  position: absolute;
+  width: 70%;
+  top: -200px;
+  right: 0;
+  
+  z-index: -12;
+}

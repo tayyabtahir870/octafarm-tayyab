@@ -2,7 +2,20 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='hero'>
+   
+    <div className='hero position-relative '>
+        <div className='img1'>
+        <img className='img-fluid' src="https://octafarm.fi/_next/static/image/src/assets/images/big-oct-front.96ec7b1d19a8fc1425814cd39436228d.png" alt="" width={900} />
+
+        </div>
+        <div className='img1'>
+        <img className='img-fluid' src="https://octafarm.fi/_next/static/image/src/assets/images/big-oct-middle.6eee263e9ece97d1a30a6c1af9fef181.png" alt="" width={900} />
+
+        </div>
+        <div className='img1'>
+        <img className='img-fluid' src="https://octafarm.fi/_next/static/image/src/assets/images/big-oct-back.348882dba9fe99cbd191ef5c688ed7e2.png" alt="" width={900} />
+
+        </div>
         <div className="container py-5">
             <div className="row">
                 <div className="col-md-6">
@@ -24,13 +37,14 @@ function Hero() {
                 <div className="col-md-6 v">
                     <div >
 
-                    <video controls src="Assets/nature.mkv"></video>
+                    <video controls src="Assets/farm.mp4"></video>
                     </div>
                 </div>
             </div>
         </div>
         
     </div>
+   
   )
 }
 
